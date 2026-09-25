@@ -32,7 +32,7 @@ GAME_LIST_PATH = ROOT / "game_list.json"
 DB_PATH = ROOT / "cache.sqlite"
 UNMATCHED_PATH = ROOT / "unmatched.json"
 DASHBOARD_TEMPLATE = ROOT / "dashboard_template.html"
-DASHBOARD_OUTPUT = ROOT / "dashboard.html"
+DASHBOARD_OUTPUT = ROOT / "index.html"
 
 RAWG_BASE = "https://api.rawg.io/api"
 RAWG_API_KEY = os.environ.get("RAWG_API_KEY")
