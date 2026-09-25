@@ -31,7 +31,7 @@ ROOT = Path(__file__).parent
 GAME_LIST_PATH = ROOT / "game_list.json"
 DB_PATH = ROOT / "cache.sqlite"
 UNMATCHED_PATH = ROOT / "unmatched.json"
-DASHBOARD_TEMPLATE = ROOT / "dashboard_template.html"
+DASHBOARD_TEMPLATE = ROOT / "index.html"
 DASHBOARD_OUTPUT = ROOT / "index.html"
 
 RAWG_BASE = "https://api.rawg.io/api"
