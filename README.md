@@ -51,4 +51,4 @@ python enrich.py --refresh
 Titles that matched ambiguously (e.g. a remaster vs. the original) are
 still included but flagged "Match needs confirming" on the dashboard —
 check `cache.sqlite`'s `match_status` column to see RAWG's top 3
-candidates and lock in the right one if needed.
+candidates and lock in the right one if needed. ':'
